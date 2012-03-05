@@ -22,3 +22,12 @@ Command-line arguments:  -data C:\Users\THOMAS\Documents\CCT\SEMESTER_4\Java\Wor
 
 !ENTRY org.eclipse.ui 4 4 2012-03-05 18:36:26.400
 !MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-03-05 18:48:38.947 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2012-03-05 18:48:42.266
+!MESSAGE No search provider was registed. Tasks search is not available.
