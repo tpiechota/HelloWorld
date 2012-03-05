@@ -25,7 +25,7 @@ public class loggingErrors {
 		logger.setLevel(Level.ALL);
 		
 		//Log a simple INFO
-		logger.info("My Info - Error log");
+		logger.info("Error logs");
 		
 		try{
 			

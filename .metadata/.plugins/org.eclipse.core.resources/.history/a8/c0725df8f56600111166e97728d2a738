@@ -25,15 +25,14 @@ public class loggingErrors {
 		logger.setLevel(Level.ALL);
 		
 		//Log a simple INFO
-		logger.info("My Info - Error log");
+		logger.info("doing stuff");
 		
 		try{
-			
+			Wombat.sneeze();
 		}catch (Error ex){
 			logger.log(Level.WARNING, "trouble sneezing", ex);
 		}
 		
 		logger.fine("done");
-	}
-	
+	}	
 }

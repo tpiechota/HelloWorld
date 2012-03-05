@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class loggingErrors {
 	
 	private static Logger logger = Logger.getLogger("");
-
+	private static FileHandler h = new FileHandler("mylog.txt");
 	
 /***
  * 
@@ -13,27 +13,32 @@ public class loggingErrors {
  * 
  * ***/
 	
-	public static void main (String [] args) throws Exception{
-		
-		
-	FileHandler h = new FileHandler("mylog.txt");	
-	
+	public loggingErrors(){		
+
 		//Send logger output to our 
-		logger.addHandler(h);
+		FileHandler.logger.addHandler(h);
 		
 		//Request that every detail	gets logged.
 		logger.setLevel(Level.ALL);
 		
 		//Log a simple INFO
-		logger.info("My Info - Error log");
+		message.logger.info("doing stuff");
 		
 		try{
-			
+			Wombat.sneeze();
 		}catch (Error ex){
 			logger.log(Level.WARNING, "trouble sneezing", ex);
 		}
 		
 		logger.fine("done");
+				
+	}
+	
+	
+	public static void main (String [] args) throws Exception{
+		
+		new loggingErrors();
+		
 	}
 	
 }

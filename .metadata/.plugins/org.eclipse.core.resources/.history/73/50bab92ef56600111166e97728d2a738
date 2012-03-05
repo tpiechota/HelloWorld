@@ -1,0 +1,42 @@
+import java.util.logging.*;
+
+public class loggingErrors {
+	
+	
+	
+/***
+ * 
+ * Author: Tomasz Piechota
+ * 
+ * ***/
+	
+	public loggingErrors(){	private static Logger logger = Logger.getLogger("com.wombat.nose");
+	private static FileHandler h = new FileHandler("mylog.txt");	
+
+		//Send logger output to our 
+		FileHandler.logger.addHandler(h);
+		
+		//Request that every detail	gets logged.
+		logger.setLevel(Level.ALL);
+		
+		//Log a simple INFO
+		message.logger.info("doing stuff");
+		
+		try{
+			Wombat.sneeze();
+		}catch (Error ex){
+			logger.log(Level.WARNING, "trouble sneezing", ex);
+		}
+		
+		logger.fine("done");
+				
+	}
+	
+	
+	public static void main (String [] args){
+		
+		new loggingErrors();
+		
+	}
+	
+}
