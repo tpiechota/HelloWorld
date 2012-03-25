@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-25T14:26:04</date>
+  <millis>1332681964511</millis>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>My Info - Error log</message>
+</record>
+<record>
+  <date>2012-03-25T14:26:08</date>
+  <millis>1332681968497</millis>
+  <sequence>1</sequence>
+  <logger></logger>
+  <level>WARNING</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>User entered blank characters.</message>
+</record>
+<record>
+  <date>2012-03-25T14:26:19</date>
+  <millis>1332681979136</millis>
+  <sequence>2</sequence>
+  <logger></logger>
+  <level>WARNING</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>User entered Integer value instead String/Char.</message>
+</record>
