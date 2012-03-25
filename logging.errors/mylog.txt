@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2012-03-25T20:35:09</date>
-  <millis>1332704109475</millis>
+  <date>2012-03-25T21:01:12</date>
+  <millis>1332705672883</millis>
   <sequence>0</sequence>
   <logger></logger>
   <level>INFO</level>
@@ -11,15 +11,4 @@
   <method>log</method>
   <thread>1</thread>
   <message>My Info - Error log</message>
-</record>
-<record>
-  <date>2012-03-25T20:35:12</date>
-  <millis>1332704112587</millis>
-  <sequence>1</sequence>
-  <logger></logger>
-  <level>SEVERE</level>
-  <class>java.util.logging.LogManager$RootLogger</class>
-  <method>log</method>
-  <thread>1</thread>
-  <message>User input too short (min. 3 characters)</message>
 </record>
