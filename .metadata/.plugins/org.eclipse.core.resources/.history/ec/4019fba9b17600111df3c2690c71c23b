@@ -13,8 +13,9 @@ public class loggingErrors {
 	
 	/***
 	 *
-	 * Author: Tomasz Piechota
-	 *  
+	 * Author: Tomasz Piechota 
+	 * 
+	 * 
 	 ***/
 
 
@@ -42,7 +43,7 @@ public class loggingErrors {
 		
 		try{
 			
-			enterName(); 
+			enterName();
 			
 		
 		}catch (Error ex){
