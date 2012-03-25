@@ -12,11 +12,10 @@ public class loggingErrors {
 	
 	
 	/***
-	 *
-	 * Author: Tomasz Piechota 
-	 * 
-	 * 
-	 ***/
+	*
+	* Author: Tomasz Piechota
+	*
+	* ***/
 
 
 	boolean testOK;
