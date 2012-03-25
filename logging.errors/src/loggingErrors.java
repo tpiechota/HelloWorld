@@ -44,7 +44,6 @@ public class loggingErrors {
 			
 			enterName(); 
 			
-		
 		}catch (Error ex){
 			
 			testOK =  false;
@@ -61,7 +60,7 @@ public class loggingErrors {
 		
 	}
 	
-	
+	// Just a simple User input command
 	public void enterName(){
 		
 		do{// First Name BEGIN.
