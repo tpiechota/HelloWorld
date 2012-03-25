@@ -42,7 +42,7 @@ public class loggingErrors {
 		
 		try{
 			
-			enterName();  
+			enterName(); 
 			
 		
 		}catch (Error ex){
@@ -56,7 +56,7 @@ public class loggingErrors {
 		
 		logger.fine("done");
 		
-		System.out.println("Users First Name: " + fName);
+		System.out.println("First Name.......: " + fName);
 
 		
 	}
