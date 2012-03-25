@@ -42,7 +42,7 @@ public class loggingErrors {
 		
 		try{
 			
-			enterName(); 
+			enterName();  
 			
 		
 		}catch (Error ex){
